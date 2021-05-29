@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Niramit:wght@200&display=swap');
+
+*{
+    margin: 0px;
+}
+
+.topBar {
+    background-color: rgb(98, 6, 173);
+}
+
+body{
+    background-color: rgb(62, 4, 110);
+
+
+}
+
+.topBar ul li{
+    display: inline-block;
+    margin-left: 20px;
+    background-color: azure;
+}
+
+#quite{
+    position: relative;
+    left: -200px;
+    top: -40px;
+
+}
+
+#natural{
+    position: relative;
+    right: -200px;
+    top: -40px;
+
+}
+
+.topBar ul li img{
+    position: relative;
+    left: 20px;
+    border: black;
+    border-radius: 2px;
+
+}
+
+.topBar ul{
+    background-color:  azure;
+    list-style: none;
+    font-family: 'Sigmar One', cursive;
+    font-size: 60px;
+    padding-top: 5px;
+    text-align: center;
+    
+
+
+}
+
+.navBar nav ul li{
+    display: inline-block;
+    color: azure;
+    overflow: hidden;
+    position: fixed;
+}
+
+.navBar nav ul li :active{
+    text-decoration: none;
+    color: rgb(208, 228, 228);
+    text-decoration: underline azure;
+}
+
+.navBar nav ul li :visited{
+    color: azure;
+    position: fixed;
+}
+
+.navBar nav ul li :link{
+    color: azure;
+    text-decoration: none;
+}
+
+.navBar nav ul li :hover{
+    border: none;
+    text-decoration: underline rgba(141, 141, 141, 0.657);
+    
+}
+
+.navBar nav ul{
+    background-color: black;
+    padding: 15px;
+    font-size: 28px;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+
+}
+
+#home{
+    position: relative;
+    right: 385px;
+    
+
+}
+
+#stream{
+    position: relative;
+    right: 20px;
+    
+}
+
+#art{
+    position: relative;
+    left: 370px;
+    
+}
+
+
+main{
+    text-align: center;
+    background-color: rgb(37, 37, 37);
+    padding-bottom: 681px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+main .mainWrapper h2{
+    font-size: 60px;
+    font-family: 'Bebas Neue', cursive;
+    color: azure;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+main .mainContent p{
+    font-size: 22px;
+    font-family: 'Niramit', sans-serif;
+    color: rgb(199, 214, 214);
+    padding-bottom: 300px;
+    position: relative;
+}
+
+main .mainContent ul li{
+    display: inline-block;
+    padding-top: 50px;
+    position: relative;
+
+}
+
+
+#artI{
+    font-size: 75px;
+    font-family: 'Bebas Neue', cursive;
+    color: azure;
+    border: none;
+    outline: none;
+    background-color: rgb(37, 37, 37)
+}
+
+#vods{
+    font-size: 75px;
+    font-family: 'Bebas Neue', cursive;
+    color: azure;
+    border: none;
+    outline: none;
+    padding-top: 150px;
+    background-color: rgb(37, 37, 37);
+}
+
+#vvod1{
+    font-size: 22px;
+    font-family: 'Niramit', sans-serif;
+    color: azure;
+    position: relative;
+    right: 20px;
+}
+
+footer{
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+footer .footerBlock{
+    background-color: azure;
+    padding: 10px;
+    
+}
+
+footer .footerBlock2{
+    background-color: rgb(22, 22, 22);
+    padding: 10px;
+}

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="ISO-8859">
+    <title>QuiteNatural</title>
+    <meta name="description" content="Stupid Btich Streams">
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="icon" href="images/adventuretime3-favicon.png"/>
+</head>
+
+
+<body>
+    <header>
+        <div class="wrapper">
+            <div class="topBar">
+                <ul>
+                    <li id = quite><p>Quite</p></li>
+                    <li><img src="images/adventuretime3-1000x600_2.jpg" width = "140px" height = "120px" alt="insert anime character from Demon Slayer"></li>
+                    <li id = natural><p>Natural</p></li>
+
+                </ul>
+            </div>
+            <div class="navBar">
+                <nav>
+                    <ul>
+                        <li id = home><a href="index.html">Home</a></li>
+                        <li id = stream><a href="https://www.twitch.tv/quitenatural">Streams</a></li>
+                        <li id = art><a href="https://www.instagram.com/air.conditi0ner/">Art</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+        <div class="mainWrapper">
+            <h2>About</h2>
+            <div class="mainContent">
+                <p>ShittyBirthdayPresentForQuarantinedLoser</p>
+                <div>
+                    <button id = artI onclick="pullDown()">Art ^</button>
+                    <ul id = aImgs> 
+                        <li id = aImg></li>
+                        <li id = aImg2></li>
+                        <li id = aImg3></li>
+                        <li id = aImg4></li>
+                        <li id = aImg5></li>
+                        <li id = aImg6></li>
+                    </ul>
+
+
+                    <script>
+                        var header = document.getElementById('artI');
+                        var count = 1;
+                        var aImg = document.getElementById('aImg');
+                        var aImg2 = document.getElementById('aImg2');
+                        var aImg3 = document.getElementById('aImg3');
+                        var aImg4 = document.getElementById('aImg4');
+                        var aImg5 = document.getElementById('aImg5');
+                        var aImg6 = document.getElementById('aImg6');
+                        var img = document.createElement('img');
+                        var img2 = document.createElement('img');
+                        var img3 = document.createElement('img');
+                        var img4 = document.createElement('img');
+                        var img5 = document.createElement('img');
+                        var img6 = document.createElement('img');
+                        function pullDown(){
+                            if (count == 1){
+                                img.src = 'images/GoodArt.PNG';
+                                img2.src = 'images/GoodArt2.PNG';
+                                img3.src = 'images/GoodArt3.PNG';
+                                img4.src = 'images/GoodArt4.PNG';
+                                img5.src = 'images/GoodArt5.PNG';
+                                img6.src = 'images/GoodArt6.PNG';
+                                img.height = 420;
+                                img2.height = 420;
+                                img3.height = 420;
+                                aImg.appendChild(img);
+                                aImg2.appendChild(img2);
+                                aImg3.appendChild(img3);
+                                aImg4.appendChild(img4);
+                                aImg5.appendChild(img5);
+                                aImg6.appendChild(img6);
+                                artI.innerHTML = "Art >";
+                                count = 2;
+                            }
+                            else if (count == 2){
+                                artI.innerHTML = "Art ^";
+                                aImg.removeChild(img);
+                                aImg2.removeChild(img2);
+                                aImg3.removeChild(img3);
+                                aImg4.removeChild(img4);
+                                aImg5.removeChild(img5);
+                                aImg6.removeChild(img6);
+                                count = 1;
+                            }
+                        }
+
+
+                    </script>
+
+                    <button id = vods onclick = "pullDown1()">VODS ^</button>
+                    
+                    <ul id = vvods>
+                        <li id = vvod1></li>
+                        <li id = vvod2></li>
+                        <li id = vvod3></li>
+                        <li id = vvod4></li>
+                    </ul>
+
+                    <script>
+                        var count1 = 1;
+                        var vvod1 = document.getElementById('vvod1');
+                        var vvod2 = document.getElementById('vvod2');
+                        var vvod3 = document.getElementById('vvod3');
+                        var vvod4 = document.getElementById('vvod4');
+                        var vods = document.getElementById('vods');
+                        function pullDown1(){
+                            if(count1 == 1){
+                                vods.innerHTML = "VODS >";
+                                vvod1.innerHTML = "Coming Soon";
+                                count1 = 2;
+                            }
+                            else if(count1 == 2){
+                                vods.innerHTML = "Vods ^";
+                                vvod1.innerHTML = "";
+                                count1 = 1;
+                            }
+                        }
+                    </script>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footerBlock">
+            
+
+        </div>
+        <div class = "footerBlock2">
+
+        </div>
+    </footer>
+
+</body>
